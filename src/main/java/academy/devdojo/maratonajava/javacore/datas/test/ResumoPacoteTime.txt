@@ -1,0 +1,9 @@
+ChronoUnit: Conversão entre dias, meses, anos
+
+Duration: Diferença de horas
+
+Period: Diferença de dias
+
+Instant: nanosec, utilizado pelo pc
+
+LocalDate, LocalTime e LocalDateTime: Data e hora legíveis para humanos

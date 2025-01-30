@@ -3,6 +3,8 @@ package academy.devdojo.maratonajava.javacore.datas.test;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.Period;
+import java.time.temporal.ChronoUnit;
 
 public class LocalDateTimeTest01 {
 
@@ -29,6 +31,10 @@ public class LocalDateTimeTest01 {
 
         LocalDateTime ldt2 = date.atTime(time); //obter LocalDateTime com LocalDate e LocalTime específico
         System.out.println(ldt2);
+
+        Period p1 = Period.ofWeeks(50);
+
+        System.out.println(ldt.until(ldt.plusDays(p1.getDays()), ChronoUnit.DAYS));
 
 
     }
