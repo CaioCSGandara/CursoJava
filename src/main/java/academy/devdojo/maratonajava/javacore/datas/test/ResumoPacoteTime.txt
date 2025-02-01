@@ -9,3 +9,5 @@ Instant: nanosec, utilizado pelo pc
 LocalDate, LocalTime e LocalDateTime: Data e hora legíveis para humanos
 
 TemporalAdjusters: Manipular datas de forma não linear (não usando calendário)
+
+ZonedDateTime, ZoneId, OffsetDateTime: manipular datas com zonas e dif de horario
