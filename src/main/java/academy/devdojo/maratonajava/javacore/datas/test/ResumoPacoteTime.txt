@@ -11,3 +11,6 @@ LocalDate, LocalTime e LocalDateTime: Data e hora legíveis para humanos
 TemporalAdjusters: Manipular datas de forma não linear (não usando calendário)
 
 ZonedDateTime, ZoneId, OffsetDateTime: manipular datas com zonas e dif de horario
+    ZonedDateTime: Versão de LocalDateTime, porém com zona
+    OffsetDateTime: calcular dia/horario atraves do offset, baseado em uma data de sua escolha
+    ZoneOffset: calcular dia/horario atraves do offset e a partir de Greenwich
