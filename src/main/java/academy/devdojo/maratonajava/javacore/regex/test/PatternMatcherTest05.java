@@ -28,6 +28,10 @@ public class PatternMatcherTest05 {
         //. caracater coringa -> 1.3 -> 1a3, 1@3, 123, 153...
         // \\ -> 2x caracter de escape pra usar no java
 
+        //usar site: regexr.com
+        //^ usado para encontrar o que vc quer no começo da linha
+        //como negação, usar dentro de [] -> [^abc] = tudo q nao for a ou b ou c
+
         String regex = "([a-zA-Z0-9\\._-])+@([a-zA-Z])+(\\.([a-zA-Z])+)+";
         //obs: passou o do zoro pq nao usamos delimitador, apenas encontramos padrao
         String texto2 = "luffy@hotmail.com, 123jotaro@gmail.com, #@!zoro@mail.br, teste@gmail.com.br, sakura@mail "; // nao considera novamente indices ja encontrados
