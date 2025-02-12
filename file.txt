@@ -1,1 +1,1 @@
-Escrevendo no arquivoEscrevendo no arquivo
+Escrevendo no arquivoEscrevendo no arquivoTestando BufferedReader

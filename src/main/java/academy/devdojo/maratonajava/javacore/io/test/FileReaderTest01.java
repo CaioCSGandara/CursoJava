@@ -14,6 +14,7 @@ public class FileReaderTest01 {
             while((i=fr.read()) != -1) { //no final do arquivo, read() retorna -1
                 System.out.print((char)i);
             }
+            //quando usamos o read(vetor), ele retorna a qtd de caracteres lidos
 //            System.out.println((char)(fr.read()) + " " + (char)(fr.read()));
             // ele le o primeiro e ja vai pro proximo, por isso o while funciona
         }
