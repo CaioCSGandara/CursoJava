@@ -1,0 +1,26 @@
+-> FileReader:
+
+- Usa o método read para ler, caracter por caracter, o stream de um arquivo (só le arquivos de texto).
+- Le diretamente o arquivo no disco (lento)
+- Método read retorna o valor ASCII do caracter encontrado e -1 quando os caracteres acabam
+
+
+-> BufferedReader:
+
+- Cria um buffer para segurar os caracteres do input stream
+- Além de ler arquivos, consegue também ler o console ou uma string, entre outros input streams de caracteres.
+- Ler diretamente do buffer é mais rápido e eficiente do que diretamente do arquivo no disco
+- Tem o método readLine, que lê uma linha de texto diretamente
+
+
+-> FileWriter:
+
+- Escreve no arquivo diretamente no disco
+- Usado para escrever pouco
+
+
+-> BufferedWriter:
+- Usa um buffer para escrever nos arquivos
+- Se tiver muita escrita, armazenar no buffer e escrever depois diminui o numero de operaçoes de IO
+- Isso traz mais performance
+
